@@ -1,0 +1,90 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+format = """
+($status$cmd_duration\n)\
+\n\
+$username\
+$hostname\
+$directory\
+$python\
+$rust\
+$vagrant\
+($git_branch$git_status )\
+(${custom.trunc}\n)\
+$character\
+"""
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
+[character]
+success_symbol = "[](bold green)"
+error_symbol = "[](bold red)"
+
+[cmd_duration]
+min_time = 1_000
+show_milliseconds = false
+format = "Δt: [$duration]($style)"
+style = "bold yellow"
+
+show_notifications = false
+min_time_to_notify = 2_000
+
+[directory]
+truncation_length = 3
+truncation_symbol = " /"
+truncate_to_repo = true
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold blue"
+read_only = " "
+
+[git_branch]
+format = "[$symbol$branch]($style)"
+symbol = ":"
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+conflicted = "[🏳 ](bold red)"
+stashed = "📦"
+modified = "📝"
+staged = 's[++\($count\)](green)'
+deleted = "🗑 "
+style = "bold purple"
+untracked = "⭕️"
+
+[hostname]
+ssh_only = true
+format = "@[$hostname]($style):"
+style = "bold bright-yellow"
+
+[status]
+disabled = false
+format = "[$common_meaning\\[$status\\]]($style) "
+style = "red"
+map_symbol = true
+
+[username]
+show_always = false
+format = "[$user]($style)"
+style_user = "bold green"
+
+[python]
+format = "[$symbol($version)]($style) "
+symbol = "🐍"
+version_format = ":${major}.${minor}"
+style = "bright-green"
+
+[rust]
+symbol = "🦀"
+format = "[$symbol]($style) "
+style = "bold orange"
+
+[vagrant]
+symbol = "🖥️"
+format = "[$symbol]($style) "
+
+[custom.trunc]
+command = "echo -e '\u200B'"
+when = "test $(/usr/bin/tput cols) -le 120"
+disabled = false
