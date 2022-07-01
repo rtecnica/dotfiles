@@ -72,7 +72,7 @@
 	# and set it to false or true if you notice the colors in
 	# previewed images are too off.
 	#
-	# true_colors: false
+	# true_colors: true
 
 	###############################################################
 	# Icons
@@ -80,7 +80,7 @@
 	# (see https://dystroy.org/broot/icons for installation and
 	# troubleshooting)
 	#
-	# icon_theme: vscode
+	# icon_theme: vscodeicon
 
 	###############################################################
 	# Special paths
@@ -240,13 +240,29 @@
 			external: "$EDITOR +{line} {file}"
 			leave_broot: true
 		}
-        {
-            invocation: vim-no-exit
-            external: "$EDITOR +{line} {file}"
-            key: ctrl-h
-            apply_to: "file" 
-            leave_broot: false
-        }
+    {
+    	invocation: vim-no-exit
+			key: ctrl-h
+			apply_to: "file"
+			external: "$EDITOR +{line} {file}"
+			leave_broot: false
+		}
+		{
+    	invocation: vim-dir
+			key: ctrl-f
+			apply_to: "directory"
+			external: "cd {directory} && $EDITOR"
+			from_shell: true
+			leave_broot: true
+		}
+		{
+    	invocation: vim-dir
+			key: ctrl-f
+			apply_to: "file"
+			external: "cd {parent} && $EDITOR +{line} {file}"
+			from_shell: true
+			leave_broot: true
+		}
         {
             invocation: quick-remove
             external: "rm -r {file}"
