@@ -86,5 +86,5 @@ format = "[$symbol]($style) "
 
 [custom.trunc]
 command = "echo -e '\u200B'"
-when = "test $(/usr/bin/tput cols) -le 120"
+when = "[[ $COLUMNS -le 120 ]]"
 disabled = false

@@ -67,7 +67,7 @@ fi
 
 # Bash vars
 CHERCAN="192.168.0.69"
-
+export COLUMNS
 export LS_COLORS="$(vivid generate /home/rtecnica/.cargo/registry/src/github.com-1ecc6299db9ec823/vivid-0.8.0/themes/gruvbox-material-dark-hard)"
 
 eval "$(starship init bash)"

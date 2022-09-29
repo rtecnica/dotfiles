@@ -1,41 +1,44 @@
-.rwxrwxr-x 7.6M rtecnica 18 May 15:10  bat*
-.rwxrwxr-x 7.4M rtecnica  5 Jun 19:27  broot*
-.rwxrwxr-x 6.0M rtecnica 13 Apr 21:05  btm*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  cargo*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  cargo-clippy*
-.rwxrwxr-x 5.9M rtecnica 18 May 15:37  cargo-flamegraph*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  cargo-fmt*
-.rwxrwxr-x 8.5M rtecnica  5 Jun 19:31  cargo-install-update*
-.rwxrwxr-x 4.8M rtecnica  5 Jun 19:31  cargo-install-update-config*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  cargo-miri*
-.rwxrwxr-x 6.0M rtecnica  3 May 20:56  cargo-watch*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  clippy-driver*
-.rwxrwxr-x  10M rtecnica 18 May 15:39  delta*
-.rwxrwxr-x 2.9M rtecnica  1 Aug  2021  exa*
-.rwxrwxr-x  10M rtecnica  5 Jun 19:36  fd*
-.rwxrwxr-x 5.4M rtecnica 18 May 15:37  flamegraph*
-.rwxrwxr-x  11M rtecnica  4 Apr 12:00  gitui*
-.rwxrwxr-x 7.0M rtecnica 10 May 19:33  hwatch*
-.rwxrwxr-x 3.6M rtecnica 18 May 15:40  hyperfine*
-.rwxrwxr-x 4.5M rtecnica  5 Jun 20:52  leftwm*
-.rwxrwxr-x 5.6M rtecnica  5 Jun 20:53  leftwm-check*
-.rwxrwxr-x 4.7M rtecnica  5 Jun 20:52  leftwm-command*
-.rwxrwxr-x 8.2M rtecnica  5 Jun 20:53  leftwm-state*
-.rwxrwxr-x 8.8M rtecnica  5 Jun 20:53  leftwm-worker*
-.rwxrwxr-x 4.7M rtecnica 18 May 15:42  macchina*
-.rwxrwxr-x 3.9M rtecnica  7 Sep  2021  Oxdump*
-.rwxrwxr-x 6.0M rtecnica  5 Jun 19:45  procs*
-.rwxrwxr-x  28M rtecnica  1 Aug  2021  rg*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rls*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rust-gdb*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rust-lldb*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rustc*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rustdoc*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rustfmt*
-.rwxr-xr-x  16M rtecnica 25 Jul  2021  rustup*
-.rwxrwxr-x  11M rtecnica  5 Jun 19:58  starship*
-.rwxrwxr-x 5.5M rtecnica  6 Aug  2021  tokei*
-.rwxrwxr-x 4.6M rtecnica 20 Feb 22:02  vivid*
-.rwxrwxr-x 6.2M rtecnica 13 Apr 21:08  ytop*
-.rwxrwxr-x 5.7M rtecnica 12 Apr 16:12  zenith*
-.rwxrwxr-x 3.9M rtecnica  7 Sep  2021  zxdump*
+[1;38;2;185;198;117masm-lsp[0m
+[1;38;2;185;198;117mbat[0m
+[1;38;2;185;198;117mbingrep[0m
+[1;38;2;185;198;117mbroot[0m
+[1;38;2;185;198;117mbtm[0m
+[1;38;2;185;198;117mcargo[0m
+[1;38;2;185;198;117mcargo-clippy[0m
+[1;38;2;185;198;117mcargo-flamegraph[0m
+[1;38;2;185;198;117mcargo-fmt[0m
+[1;38;2;185;198;117mcargo-install-update[0m
+[1;38;2;185;198;117mcargo-install-update-config[0m
+[1;38;2;185;198;117mcargo-miri[0m
+[1;38;2;185;198;117mcargo-watch[0m
+[1;38;2;185;198;117mclippy-driver[0m
+[1;38;2;185;198;117mdelta[0m
+[1;38;2;185;198;117mexa[0m
+[1;38;2;185;198;117mfd[0m
+[1;38;2;185;198;117mflamegraph[0m
+[1;38;2;185;198;117mgitui[0m
+[1;38;2;185;198;117mhwatch[0m
+[1;38;2;185;198;117mhyperfine[0m
+[1;38;2;185;198;117mleftwm[0m
+[1;38;2;185;198;117mleftwm-check[0m
+[1;38;2;185;198;117mleftwm-command[0m
+[1;38;2;185;198;117mleftwm-state[0m
+[1;38;2;185;198;117mleftwm-worker[0m
+[1;38;2;185;198;117mmacchina[0m
+[1;38;2;185;198;117mOxdump[0m
+[1;38;2;185;198;117mprocs[0m
+[1;38;2;185;198;117mrg[0m
+[1;38;2;185;198;117mrls[0m
+[1;38;2;185;198;117mrust-gdb[0m
+[1;38;2;185;198;117mrust-gdbgui[0m
+[1;38;2;185;198;117mrust-lldb[0m
+[1;38;2;185;198;117mrustc[0m
+[1;38;2;185;198;117mrustdoc[0m
+[1;38;2;185;198;117mrustfmt[0m
+[1;38;2;185;198;117mrustup[0m
+[1;38;2;185;198;117mstarship[0m
+[1;38;2;185;198;117mtokei[0m
+[1;38;2;185;198;117mvivid[0m
+[1;38;2;185;198;117mytop[0m
+[1;38;2;185;198;117mzenith[0m
+[1;38;2;185;198;117mzxdump[0m

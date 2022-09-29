@@ -44,9 +44,13 @@ function hxdmp() {
 }
 
 function tre() {
-    tree -C $1 | bat -pf
+    exa -1 --tree --icons $1 | bat -pf
 }
 
 function rb() {
     rg $1 -p | bat -p
+}
+
+function bing() {
+    bingrep --color $1 | bat -pf
 }
