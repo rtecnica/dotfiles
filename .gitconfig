@@ -19,3 +19,9 @@
 [interactive]
     diffFilter = delta --color-only --features=interactive
 
+[safe]
+	directory = /media/imaldonado/capta/tce/capta
+
+[user]
+	email = imaldonado@captahydro.com
+	name = Ignacio Maldonado
