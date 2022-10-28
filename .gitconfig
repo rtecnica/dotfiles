@@ -1,20 +1,21 @@
 [user]
 	name = rtecnica
 	email = imaldonado@ing.uchile.cl
-[pager]
-    diff = delta
-    log = delta
-    reflog = delta
-    show = delta
+[core]
+    pager=delta
+
 [pull]
     rebase = false
     ff = only
 [delta]
     plus-style = "syntax #012800"
     minus-style = "syntax #340001"
-    syntax-theme = Monokai Extended
+    syntax-theme = gruvbox-material-dark
     navigate = true
     side-by-side = true
+
+[diff]
+    colorMoved = default
 
 [interactive]
     diffFilter = delta --color-only --features=interactive
