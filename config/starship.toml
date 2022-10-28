@@ -8,6 +8,7 @@ $username\
 $hostname\
 $directory\
 $python\
+$conda\
 $rust\
 $vagrant\
 ($git_branch$git_status )\

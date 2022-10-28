@@ -8,10 +8,10 @@ alias bashrc='vim ~/.bashrc'
 alias bashalias='vim ~/.bash_aliases'
 alias lg='~/go/bin/lazygit'
 alias ttime='/usr/bin/time'
-alias bat='bat --theme=gruvbox-dark'
 alias man='batman'
 alias bg='batgrep'
 alias bw='batwatch'
+alias bm='batman'
 alias zz='zenith'
 alias nvid="~/Repos/neovide/target/release/neovide"
 alias hterm="alacritty -e $SHELL &"
@@ -54,3 +54,4 @@ function rb() {
 function bing() {
     bingrep --color $1 | bat -pf
 }
+alias subs=/home/imaldonado/Repos/py_mqtt_subscribe/subs
